@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "onWindowChange",
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.format.options.tabSize": 4,
+    "prettier.tabWidth": 4,
+}
