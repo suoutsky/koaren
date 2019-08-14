@@ -1,0 +1,24 @@
+{% extends "common/layout-home.html" %} 
+{% block homeBanner %}
+<div class="banner_box">
+    <div class="banner_inner">
+        <h2 class="slogan">民谣很苦</h2>
+        <p class="des">民谣很苦，下的了所有的酒，熬不过无人的夜</p>
+        <a href="/login" title="gogogo" class="btn" id="gogogo">进入</a>
+    </div>
+</div>
+{% endblock %}
+{% block content %}
+<div class="hp-dialog">
+  <div class="hp-box">
+    <form action="/user/register" method="post">
+      <h1>到达主页</h1>
+      <p class="error">{{content}}</p>
+      <input type="text" name="name" placeholder="请输入用户名：it">
+      <input type="password" name="password" placeholder="请输入密码：1">
+      <button>GoGoGo</button>
+    </form>
+  </div>
+</div>
+<div class="hp-overlay"></div>
+{% endblock %}
