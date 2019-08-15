@@ -31,8 +31,8 @@ module.exports = {
       authType, 
       authKey
     }
-    //  let res = await userDao.createUser(opt);
-    //  return res;
+     let res = await userDao.createUser(opt);
+     return res;
   }
 
 }
